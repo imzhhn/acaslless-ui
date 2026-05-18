@@ -13,7 +13,9 @@
     "electron:build": "npm run build && electron-builder --mac"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
     "core-js": "^3.8.3",
+    "element-plus": "^2.13.7",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
@@ -38,7 +40,9 @@
     ],
     "mac": {
       "category": "public.app-category.developer-tools",
-      "target": ["dmg"]
+      "target": [
+        "dmg"
+      ]
     }
   },
   "browserslist": [
